@@ -7,15 +7,14 @@
 }
 
 
-body {
-    background: url('https://www.example.com/background-image.jpg') no-repeat center center fixed;
+body{
+    background: url("https://picsum.photos/1600/900?random=1");
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    backdrop-filter: blur(8px);
+    justify-content: center;
 }
 
 
@@ -25,10 +24,10 @@ body {
     width: 100%;
     max-width: 600px;
     background-color:transparent;
-    backdrop-filter: blur 10px;
+    backdrop-filter: blur(20px);
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(228, 224, 224, 0.1);
 
 }
 
@@ -36,7 +35,7 @@ body {
 h1 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
+    color: #321e7d;
     text-align: center;
 }
 
@@ -70,7 +69,7 @@ h1 {
 .submit-button {
     width: 100%;
     padding: 15px;
-    background-color: #6e1428;
+    background-color: #331dd8;
     border: none;
     border-radius: 8px;
     color: white;
@@ -80,7 +79,7 @@ h1 {
 }
 
 .submit-button:hover {
-    background-color: #8c2b3e;
+    background-color: #5861c4;
 }
 
 
@@ -91,11 +90,11 @@ h1 {
 
 .register-link p {
     font-size: 14px;
-    color: #777;
+    color: #fffdfd;
 }
 
 .register-link a {
-    color: #6e1428;
+    color: #1f1684;
     text-decoration: none;
     font-weight: bold;
 }

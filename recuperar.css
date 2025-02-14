@@ -1,56 +1,61 @@
-/* Reset básico para garantir consistência entre os navegadores */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Estilo do corpo da página */
-body {
-    background: #f0f4f8;
-    height: 100vh;
+
+body{
+    background: url("https://picsum.photos/1600/900?random=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-/* Container do formulário */
+
+
+
 .container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 30px 50px;
     width: 100%;
-    max-width: 400px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(228, 224, 224, 0.1);
+
 }
 
-/* Título */
+
 h1 {
-    font-size: 24px;
-    text-align: center;
+    font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
+    color: #321e7d;
+    text-align: center;
 }
 
-/* Estilo dos campos de entrada */
+
 .input-container {
     margin-bottom: 20px;
 }
 
 .input-container label {
-    display: block;
     font-size: 14px;
-    color: #666;
+    color: #333;
     margin-bottom: 5px;
+    display: block;
 }
 
 .input-container input {
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 16px;
     outline: none;
     transition: border-color 0.3s;
 }
@@ -59,13 +64,13 @@ h1 {
     border-color: #6e1428;
 }
 
-/* Estilo do botão de envio */
+
 .submit-button {
     width: 100%;
-    padding: 12px;
-    background-color: #6e1428;
+    padding: 15px;
+    background-color: #331dd8;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -73,10 +78,10 @@ h1 {
 }
 
 .submit-button:hover {
-    background-color: #8c2b3e;
+    background-color: #5861c4;
 }
 
-/* Link para login */
+
 .register-link {
     text-align: center;
     margin-top: 20px;
@@ -84,12 +89,11 @@ h1 {
 
 .register-link p {
     font-size: 14px;
-    color: #777;
+    color: #fffdfd;
 }
 
 .register-link a {
-    font-size: 14px;
-    color: #6e1428;
+    color: #1f1684;
     text-decoration: none;
     font-weight: bold;
 }
